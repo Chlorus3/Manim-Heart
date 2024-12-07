@@ -27,7 +27,7 @@ class DrawHeart(Scene):
 		self.play(Write(axes))
 		self.play(Write(heart))
 
-		# For 10 seconds, increase k to 100
+		# For 6 seconds, increase k to 100
 		self.play(
 			k_value.animate.set_value(100),
 			run_time = 6,
