@@ -29,7 +29,7 @@ class DrawHeart(Scene):
 
 		# For 6 seconds, increase k to 100
 		self.play(
-			k_value.animate.set_value(100),
+			k_value.animate.set_value(K_VALUE_MAX),
 			run_time = 6,
 			rate_func = rate_functions.ease_in_out_sine	
 		)
