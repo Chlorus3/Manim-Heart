@@ -1,4 +1,5 @@
 from manim import *
+from manim import rate_functions
 import numpy as np
 
 class DrawHeart(Scene):
@@ -30,8 +31,8 @@ class DrawHeart(Scene):
 		# For 10 seconds, increase k to 100
 		self.play(
 			k_value.animate.set_value(100),
-			run_time = 10,
-			rate_func = smooth	
+			run_time = 6,
+			rate_func = rate_functions.ease_in_out_sine	
 		)
 
 
