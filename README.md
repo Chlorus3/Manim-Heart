@@ -9,5 +9,5 @@ See how to download Manim [here](https://www.manim.community/) and some other re
 ## How to run
 
 ```txt
-manim main.py -p DrawHeart
+manim src/main.py -p DrawHeart
 ```
