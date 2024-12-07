@@ -1,6 +1,6 @@
 # Manim Animated Heart
 
-![alt text](assets/HeartGraph.png)
+![Heart photo](assets/HeartGraph.png)
 
 ## Requirements
 
