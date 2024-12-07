@@ -1,5 +1,4 @@
 from manim import *
-from manim import rate_functions
 import numpy as np
 
 class DrawHeart(Scene):
